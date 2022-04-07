@@ -1,0 +1,10 @@
+# a simple /discord command
+#please feel free to change this
+
+options:
+    discordlink: #replace this with discord link
+    servername: #replace this with you're servers name
+
+command /discord:
+    trigger:
+        send "{@servername} &7>> <link:{@servername}>&e&nClick me &7to join the discord server!"
